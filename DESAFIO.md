@@ -19,10 +19,4 @@ Abra o arquivo abaixo, que reúne todas as capturas de tela e os trechos de cód
 
 [📸 Screenshots e documentação detalhada](docs/screenshots/README.md)
 
-## 📦 Próximos passos (opcional)
-- Inserir referências a essas screenshots no `README.md` da raiz ou em um portfólio.
-- Compartilhar o repositório público e divulgar o trabalho nas redes (LinkedIn, GitHub). 
-
----
-
 > **Nota:** As imagens foram geradas usando o harness **OpenCode**. As etapas “inicial” mostram a coleta de contexto e a detecção da vulnerabilidade; as etapas “posterior” mostram a re‑análise após a aplicação das correções.
