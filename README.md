@@ -57,6 +57,7 @@ Fale naturalmente, com as suas palavras. Nas primeiras vezes, vale usar um dos [
 | [Pesquisa na web](skills/web-search/SKILL.md) | Responde dúvidas atuais (versões, lançamentos, mercado) com fontes citadas | "Qual a versão estável do Node hoje?" |
 | [Revisão de portfólio](skills/portfolio-review/SKILL.md) | Dá feedback sobre o seu portfólio e GitHub antes de buscar vagas | "O que falta no meu GitHub para uma vaga júnior?" |
 | [Caminho AI Builder](skills/ai-builder-path/SKILL.md) | Ajuda você a escolher o próximo passo na Carreira AI Builder | "Qual Formação AI Builder combina comigo?" |
+| [Análise de vulnerabilidades](skills/vulnerability-analysis/SKILL.md) | Analisa risco, impacto, probabilidade e recomenda mitigação para vulnerabilidades | "Analise uma vulnerabilidade de SQL Injection" |
 
 A pesquisa na web usa a busca do seu harness. Se ele não tiver busca própria, veja [como conectar o You.com](docs/youcom-mcp.md), que tem uma opção gratuita.
 

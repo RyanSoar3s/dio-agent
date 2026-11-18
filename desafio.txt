@@ -1,0 +1,61 @@
+Entendendo o Desafio
+Agora é a sua hora de praticar, aprender fazendo e transformar o DIO Agent num mentor de cibersegurança, que analisa uma vulnerabilidade com você do jeito que um profissional de segurança faria.
+
+Repositório Base:
+https://github.com/digitalinnovationone/dio-agent
+
+Nas Aulas, a Expert Isadora roda o DIO Agent no Hermes, pelo terminal do VS Code, e acrescenta a ele uma skill, um arquivo de conhecimento e uma persona voltados para segurança. Nenhum modelo é treinado: o agente aprende pelo que está escrito nos arquivos.
+
+O Que Criar
+Uma especialização do agente que, em vez de responder direto, entende o contexto, avalia impacto, probabilidade e severidade e orienta a correção. Você acrescenta:
+
+Uma skill nova em skills/, como vulnerability-analysis, com o SKILL.md que o agente segue e um README.md que a explica para pessoas;
+Um arquivo em agent/knowledge/, como security-basics.md, com vulnerabilidade, ameaça, risco, a tríade confidencialidade, integridade e disponibilidade, e boas práticas;
+Um trecho no agent/persona.md e uma linha na tabela de skills do AGENTS.md, para o agente saber quando usar a skill.
+Como Fazer
+O repositório base é o ponto de partida: você reproduz o caminho da Expert e depois escolhe uma melhoria.
+
+Prepare o ambiente. Instale o Hermes pela documentação indicada no README e baixe o DIO Agent com git clone ou pelo Download ZIP;
+Teste com código vulnerável. Crie um app.py com um login que monta o SQL juntando o que a pessoa digitou. Peça ao agente, como especialista em AppSec, que encontre a falha, explique a exploração, cite a técnica do MITRE ATT&CK e reescreva o código;
+Corrija e valide. Troque pela consulta parametrizada e peça uma nova varredura, para confirmar que o SQL Injection foi mitigado;
+Ensine a habilidade. Crie a skill, o conhecimento e os ajustes da persona e do AGENTS.md. A skill é um roteiro com regras defensivas, sem respostas prontas;
+Converse com o agente. Descreva um cenário, como um servidor Ubuntu de laboratório exposto na internet, e confira se ele pergunta o contexto antes de sugerir qualquer comando.
+Um cuidado que pega muita gente: rode o hermes num terminal aberto na pasta do projeto. Aberto em outro lugar, ele não encontra os seus arquivos.
+
+Ideias para Evoluir
+Uma skill de testes de segurança, uma das sugestões da Expert;
+Uma skill que monte uma trilha de estudos em cibersegurança, outra sugestão dela;
+Testar a skill com outros cenários, como uma configuração insegura ou um problema de infraestrutura;
+Fazer a análise sair sempre no mesmo formato, com impacto, probabilidade e severidade, para comparar casos;
+Levar a revisão para o fluxo de desenvolvimento, analisando cada alteração antes da produção, como no DevSecOps.
+Se você ainda está começando, tudo bem. Uma skill não é programa: é um roteiro em Markdown, escrito em português. Uma skill pequena, funcionando e bem explicada, vale mais que três pela metade.
+
+Uma Ajuda durante o Caminho
+O próprio DIO Agent que você está evoluindo pode revisar a sua skill:
+
+Estou evoluindo o DIO Agent com uma skill de análise de vulnerabilidades.
+Já criei a pasta da skill e o SKILL.md, mas não sei se o processo que escrevi está claro para um agente.
+Leia o meu SKILL.md e me pergunte, etapa por etapa, o que ficou ambíguo.
+
+Importante: não quero uma resposta pronta para copiar.
+Quero entender o processo e construir minha própria solução.
+O Que Entregar
+Publique o projeto evoluído num repositório público na sua conta do GitHub e envie o link. No README.md, explique:
+
+A especialização que você deu ao agente, e por quê;
+Quais arquivos criou ou alterou: skill, conhecimento, persona e AGENTS.md;
+Como rodar o agente no harness, e a melhoria que você escolheu.
+Prints contam muito: a análise do app.py, as perguntas de contexto que o agente faz e, se quiser, a mesma pergunta num chat genérico, como a Expert compara. Evidência é o que mais pesa no portfólio.
+
+Antes de submeter, confira:
+
+A skill nova tem o SKILL.md com name e description e aparece na tabela do AGENTS.md;
+Os testes usam só código e servidores seus, de laboratório;
+Todo arquivo e toda pasta citada no README existem e têm conteúdo;
+O link enviado é o do repositório, não o de um arquivo dentro dele;
+O repositório está na sua conta e público;
+O nome do repositório ficou legível, em minúsculas e sem acento.
+Resultado Esperado
+Ao final, você terá um agente que conduz uma análise de segurança como um profissional, perguntando antes de agir, e um repositório que mostra como especializar um agente só com arquivos. Publicou? Compartilhe no LinkedIn a skill que você criou, como a Isadora propõe no fim das Aulas.
+
+Bons estudos e bom projeto 🚀

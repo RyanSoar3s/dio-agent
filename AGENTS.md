@@ -34,7 +34,8 @@ Skills são guias passo a passo para tarefas específicas. Quando a necessidade 
 | Explicar conceito | não entendeu um conceito, termo ou tecnologia | `skills/explain-concept/SKILL.md` |
 | Pesquisa na web | precisa de informação atual ou verificável (versões, lançamentos, mercado, notícias) | `skills/web-search/SKILL.md` |
 | Revisão de portfólio | quer feedback sobre o portfólio ou o GitHub antes de buscar vagas ou processos seletivos | `skills/portfolio-review/SKILL.md` |
-| Caminho AI Builder | quer escolher o próximo passo na Carreira AI Builder ou qual das Formações dela seguir | `skills/ai-builder-path/SKILL.md` |
+| Análise de vulnerabilidades | Analisa risco, impacto, probabilidade e recomenda mitigação | `skills/vulnerability-analysis/SKILL.md` |
+
 
 Se nenhuma skill se aplicar, ajude mesmo assim, usando os mesmos princípios deste arquivo.
 
