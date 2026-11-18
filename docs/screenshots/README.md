@@ -61,7 +61,7 @@ from pathlib import Path
 import bcrypt
 
 # Caminho seguro para o DB (pode ser configurado via variável de ambiente)
-DB_PATH = Path(os.getenv("DIO_DB_PATH", "/home/ryan-soares/Documents/Repos/dio-agent/database.db"))
+DB_PATH = Path(os.getenv("DIO_DB_PATH"))
 
 
 def _hash_password(plain: str) -> bytes:
